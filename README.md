@@ -22,3 +22,17 @@ Step by step instructions to creating and accessing repository and using ssh and
       C:\Path>git commit --all -m "Adding index.html" (This command will add a comment 'm' means message "Adding index.html")
 
 9. To check the satus of what is there already and what is new, use the command 'git status.'
+10. This shit, if its not pushing manually type path:
+
+   C:\Users\ladub\OneDrive\Desktop\NEWPOrt\Sudz007.github.io>git push
+   Enter passphrase for key '/c/Users/ladub/.ssh/id_ed25519':
+   Enumerating objects: 4, done.
+   Counting objects: 100% (4/4), done.
+   Delta compression using up to 12 threads
+   Compressing objects: 100% (2/2), done.
+   Writing objects: 100% (3/3), 287 bytes | 287.00 KiB/s, done.
+   Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+   To github.com:Sudz007/Sudz007.github.io.git
+   905fbd1..bf12cf4  main -> main
+
+   C:\Users\ladub\OneDrive\Desktop\NEWPOrt\Sudz007.github.io>
