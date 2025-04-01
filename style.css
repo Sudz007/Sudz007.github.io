@@ -1,48 +1,55 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffaf0; 
+  background-color: #fffaf0; /* Soft cream background */
   color: #444;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
-header {
-  background-color: #ffdab9; 
+header, footer {
+  background-color: #ffdab9; /* Pastel orange */
   text-align: center;
   padding: 20px;
 }
 
 h1 {
-  color: #d2691e; 
+  color: #d2691e; /* Slightly deeper pastel orange */
 }
 
 p {
   color: #555;
 }
 
+.container {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+}
+
 section {
   padding: 20px;
-  margin: 20px;
+  margin: auto;
   border-radius: 10px;
-  background-color: #ffebcd; 
+  background-color: #ffebcd; /* Light pastel yellow */
   text-align: center;
+  max-width: 800px;
 }
 
 #about {
-  background-color: #ffccd5; 
+  background-color: #ffccd5; /* Pastel pink */
 }
 
 #projects {
-  background-color: #c8e6c9; 
+  background-color: #c8e6c9; /* Soft pastel green */
 }
 
 #contact {
-  background-color: #fff3cd;
+  background-color: #fff3cd; /* Light pastel yellow */
 }
 
 a {
-  color: #ff6f61;
+  color: #ff6f61; /* Soft coral pink */
   text-decoration: none;
 }
 
@@ -50,8 +57,3 @@ a:hover {
   text-decoration: underline;
 }
 
-footer {
-  background-color: #ffdab9;
-  text-align: center;
-  padding: 10px;
-}
