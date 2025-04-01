@@ -1,19 +1,20 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffaf0; /* Soft cream background */
+  background-color: #fffaf0; 
   color: #444;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 header {
-  background-color: #ffdab9; /* Pastel orange */
+  background-color: #ffdab9; 
   text-align: center;
   padding: 20px;
 }
 
 h1 {
-  color: #d2691e; /* Slightly deeper pastel orange */
+  color: #d2691e; 
 }
 
 p {
@@ -24,23 +25,24 @@ section {
   padding: 20px;
   margin: 20px;
   border-radius: 10px;
-  background-color: #ffebcd; /* Light pastel yellow */
+  background-color: #ffebcd; 
+  text-align: center;
 }
 
 #about {
-  background-color: #ffccd5; /* Pastel pink */
+  background-color: #ffccd5; 
 }
 
 #projects {
-  background-color: #c8e6c9; /* Soft pastel green */
+  background-color: #c8e6c9; 
 }
 
 #contact {
-  background-color: #fff3cd; /* Light pastel yellow */
+  background-color: #fff3cd;
 }
 
 a {
-  color: #ff6f61; /* Soft coral pink */
+  color: #ff6f61;
   text-decoration: none;
 }
 
@@ -49,7 +51,7 @@ a:hover {
 }
 
 footer {
-  background-color: #ffdab9; /* Pastel orange */
+  background-color: #ffdab9;
   text-align: center;
   padding: 10px;
 }
