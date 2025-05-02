@@ -70,3 +70,14 @@ footer {
   border: 30px white;
 }
 
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.navbar a.nav-link {
+  color: #d2691e;
+}
+
+.navbar a.nav-link:hover {
+  color: #ff6f61; 
+}
