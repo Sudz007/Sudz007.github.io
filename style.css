@@ -58,3 +58,11 @@ a:hover {
   text-decoration: underline;
 }
 
+#about {
+  padding-top: 2rem; /* adjust as needed */
+}
+
+/* Space between "Contact Me" box and footer */
+#contact {
+  padding-bottom: 2rem; /* adjust as needed */
+}
