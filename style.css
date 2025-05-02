@@ -65,3 +65,8 @@ header {
 footer {
   margin-top: 2rem;
 }
+
+.container {
+  border: 30px white;
+}
+
