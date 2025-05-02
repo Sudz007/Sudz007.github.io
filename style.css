@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffaf0; /* Soft cream background */
+  background-color: #fffaf0; /* offwhite */
   color: #444;
   margin: 0;
   padding: 0;
@@ -8,13 +8,13 @@ body {
 }
 
 header, footer {
-  background-color: #ffdab9; /* Pastel orange */
+  background-color: #ffdab9; /* orange */
   text-align: center;
   padding: 20px;
 }
 
 h1 {
-  color: #d2691e; /* Slightly deeper pastel orange */
+  color: #d2691e; /* darker orange */
 }
 
 p {
@@ -31,13 +31,13 @@ section {
   padding: 20px;
   margin: auto;
   border-radius: 10px;
-  background-color: #ffebcd; /* Light pastel yellow */
+  background-color: #ffebcd; /* yellow */
   text-align: center;
   max-width: 800px;
 }
 
 #about {
-  background-color: #ffccd5; /* Pastel pink */
+  background-color: #ffccd5; /* pink */
 }
 
 #projects {
@@ -46,11 +46,11 @@ section {
 }
 
 #contact {
-  background-color: #fff3cd; /* Light pastel yellow */
+  background-color: #fff3cd; /* yellow */
 }
 
 a {
-  color: #ff6f61; /* Soft coral pink */
+  color: #ff6f61; /* coral */
   text-decoration: none;
 }
 
