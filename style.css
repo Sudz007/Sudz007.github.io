@@ -1,6 +1,10 @@
 body {
   font-family: 'Inconsolata', monospace !important;
-  background-color: #fffaf0; /* offwhite */
+  /*background-color: #fffaf0; offwhite */
+  background-image: url('lucianbackground.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   color: #444;
   margin: 0;
   padding: 0;
@@ -71,6 +75,15 @@ section {
   border-radius: 10px;
   max-width: 1200px;
   margin: auto;
+}
+
+.parallax-section {
+  background-image: url('lucianbackground.png');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px;
 }
 
 #personal img:hover {
