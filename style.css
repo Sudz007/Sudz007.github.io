@@ -61,7 +61,7 @@ section {
 .img-hover-container {
   position: relative;
   display: inline-block;
-  transform: scale(0.7); /* Shrinks to 70% size */
+  transform: scale(0.5); /* Shrinks to 70% size */
   transition: transform 0.3s ease;
 }
 
