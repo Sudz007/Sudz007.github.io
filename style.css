@@ -69,14 +69,6 @@ section {
   transition: transform 0.3s ease;
 }
 
-.parallax-section {
-  background-image: url('lucianbackground.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 60px 20px;
-}
 
 #personal img:hover {
   transform: scale(1.05);
