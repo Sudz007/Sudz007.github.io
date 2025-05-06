@@ -161,6 +161,39 @@ footer {
   color: #ff6f61; 
 }
 
+.resume-button {
+  position: relative;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  color: #8B0000; /* dark red text initially */
+  border: 2px solid #8B0000;
+  text-decoration: none;
+  overflow: hidden;
+  transition: color 0.4s ease;
+}
+
+.resume-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #8B0000; /* dark red fill */
+  z-index: -1;
+  transition: width 0.4s ease;
+}
+
+.resume-button:hover {
+  color: #fff; /* text becomes white */
+}
+
+.resume-button:hover::before {
+  width: 100%; /* fill expands fully from left */
+}
+
+
 /* 
   COLORS USED
 
