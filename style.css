@@ -62,20 +62,20 @@ section p, section h2, section a {
 }
 
 #about {
-  background-color: #ffccd5; /* pink */
+ /* pink */
 }
 
 #projects {
-  background-color: #c8e6c9;
+  
   text-align: left;
 }
 
 #contact {
-  background-color: #fff3cd; /* yellow */
+  /* yellow */
 }
 
 #personal {
-  background-color: #f8c8c8; /* red*/
+   /* red*/
   text-align: center;
 }
 
