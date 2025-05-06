@@ -180,17 +180,17 @@ footer {
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: #8B0000; /* dark red fill */
+  background-color: #8B0000; 
   z-index: -1;
   transition: width 0.4s ease;
 }
 
 .resume-button:hover {
-  color: #fff; /* text becomes white */
+  color: #fff; 
 }
 
 .resume-button:hover::before {
-  width: 100%; /* fill expands fully from left */
+  width: 100%;
 }
 
 
