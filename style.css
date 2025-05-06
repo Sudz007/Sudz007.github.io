@@ -186,7 +186,7 @@ footer {
 }
 
 .resume-button:hover {
-  color: #fff; 
+  color: #ff0000; 
 }
 
 .resume-button:hover::before {
