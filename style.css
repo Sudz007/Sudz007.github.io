@@ -47,9 +47,9 @@ section {
   max-width: 800px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   float: none; 
-  width: 90%; /* Shrink sections initially */
-  opacity: 0; /* Hide sections initially */
-  transition: width 0.5s ease, opacity 0.5s ease; /* Smooth animation */
+  width: 90%; 
+  opacity: 0; 
+  transition: width 0.5s ease, opacity 0.5s ease; 
 }
 
 section.expanded {
@@ -110,7 +110,7 @@ header {
 }
 
 footer {
-  margin-top: 1rem; /* Reduce margin above the footer */
+  margin-top: 1rem; 
 }
 
 .container {
@@ -141,24 +141,24 @@ footer {
 
 .icon-links {
   position: fixed;
-  top: 120px; /* Adjust to position below the header */
-  right: 20px; /* Adjust distance from the right edge */
+  top: 120px; 
+  right: 20px; 
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Space between icons */
-  z-index: 1000; /* Ensure it stays above other elements */
+  gap: 15px; 
+  z-index: 1000; 
 }
 
 .icon-link {
   color: #d2691e; /* Icon color */
-  font-size: clamp(24px, 4vw, 48px); /* Responsive size: min 24px, max 48px */
+  font-size: clamp(24px, 4vw, 48px); 
   text-decoration: none;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .icon-link:hover {
-  transform: scale(1.2); /* Slightly enlarge on hover */
-  color: #ff6f61; /* Change color on hover */
+  transform: scale(1.2); 
+  color: #ff6f61; 
 }
 
 /* 
@@ -174,5 +174,5 @@ footer {
   Projects Section: #c8e6c9 (Light Green)
   Personal Section: #f8c8c8 (Light Red)
   Contact Section:  #fff3cd (Light Yellow)
-
+*/
 
