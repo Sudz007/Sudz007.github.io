@@ -1,7 +1,7 @@
 body {
   font-family: 'Inconsolata', monospace !important;
   /*background-color: #fffaf0; offwhite */
-  background-image: url('lucianbackground.png');
+  background-image: linear-gradient(to right, rgb(44, 39, 39), rgba(68, 68, 68, 0.5), rgba(68, 68, 68, 0)), url('lucianbackground.png');
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,12 +9,15 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  padding-bottom: 50px; /* Add padding to ensure the contact section is visible  */
 }
 
 header, footer {
-  background-color: #ffdab9; /* orange */
+  background-color: #1a1817; /* orange */
   text-align: center;
   padding: 20px;
+  color: white; 
+  font-weight: bold; 
 }
 
 h1 {
@@ -26,18 +29,36 @@ p {
 }
 
 .container {
-  display: grid;
-  gap: 20px;
-  justify-content: center;
+  display: block; 
+  margin: 0; 
+  padding: 0;
 }
 
 section {
   padding: 20px;
-  margin: auto;
+  margin: 10px auto; 
   border-radius: 10px;
-  background-color: #ffebcd; /* yellow */
-  text-align: center;
+  background-image: url('dirty-old-paper-texture-2.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+  text-align: left; 
   max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  float: none; 
+  width: 90%; /* Shrink sections initially */
+  opacity: 0; /* Hide sections initially */
+  transition: width 0.5s ease, opacity 0.5s ease; /* Smooth animation */
+}
+
+section.expanded {
+  width: 100%; /* Expand section */
+  opacity: 1; /* Make section visible */
+}
+
+section p, section h2, section a {
+  margin-left: 5%; /* Add a responsive left margin */
 }
 
 #about {
@@ -65,7 +86,7 @@ section {
 .img-hover-container {
   position: relative;
   display: inline-block;
-  transform: scale(0.5); /* Shrinks to 70% size */
+  transform: scale(0.5); 
   transition: transform 0.3s ease;
 }
 
@@ -89,7 +110,7 @@ header {
 }
 
 footer {
-  margin-top: 2rem;
+  margin-top: 1rem; /* Reduce margin above the footer */
 }
 
 .container {
@@ -109,7 +130,7 @@ footer {
   color: #ff6f61; 
 }
 
-.inconsolata-<uniquifier> {
+.inconsolata-custom {
   font-family: "Inconsolata", monospace;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -118,6 +139,27 @@ footer {
     "wdth" 100;
 }
 
+.icon-links {
+  position: fixed;
+  top: 120px; /* Adjust to position below the header */
+  right: 20px; /* Adjust distance from the right edge */
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between icons */
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.icon-link {
+  color: #d2691e; /* Icon color */
+  font-size: clamp(24px, 4vw, 48px); /* Responsive size: min 24px, max 48px */
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.2); /* Slightly enlarge on hover */
+  color: #ff6f61; /* Change color on hover */
+}
 
 /* 
   COLORS USED
@@ -132,5 +174,5 @@ footer {
   Projects Section: #c8e6c9 (Light Green)
   Personal Section: #f8c8c8 (Light Red)
   Contact Section:  #fff3cd (Light Yellow)
-*/
+
 
